@@ -1,5 +1,5 @@
-# AdvancedDjango-Poll
-Improvement of "Poll" Tutorial in Django Official Docs. This is the First one in Advanced Django Series.
+# AdvancedDjango-Polls
+Improvement of "Polls" Tutorial in Django Official Docs. This is the First one in Advanced Django Series.
 
 WARNING!!!
 This repository does NOT contain SECRET_KEY item,  
