@@ -3,15 +3,17 @@ Improvement of "Poll" Tutorial in Django Official Docs. This is the First one in
 
 WARNING!!!
 This repository does NOT contain SECRET_KEY item,  
-so you need to generate your own SECRET_KEY and save it as "secret_key.json" file like below:
+so if you want to run the whole code,  
+you need to generate your own SECRET_KEY and save it as "secret_key.json" file like below:
 
-// secret_key.json
-{
-  "SECRET_KEY": "<<<Enter your secret key here!!!>>>"
-}
+// secret_key.json  
+{  
+  "SECRET_KEY": "<<<Enter your generated secret key here!!!>>>"  
+}  
 
-
-
+Or you can just copy the necessary code to your project.
+  
+  
 After git clone, follow these:
 
   1) Enter the "Django-Board" directory.  
