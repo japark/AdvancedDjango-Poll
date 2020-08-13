@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+</head>
+<body>
+
+<h4>정말로 {{ question }} 을 삭제합니까?</h4>
+
+<form action="." method="post">{% csrf_token %}
+	<input type="submit" value="확인">
+</form>
+<br>
+<a href="{% url 'polls:detail' question.id %}">취소</a>
+<a href="{% url 'polls:index' %}">메인으로</a>
+
+</body>
+</html>

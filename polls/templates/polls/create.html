@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/pointer.css' %}">
+	<script type="text/javascript" src="{% static 'polls/myjs.js' %}"></script>
+</head>
+<body>
+
+<h1>Create Poll.</h1>
+
+<form action="." method="post">{% csrf_token %}
+{{ form }}
+<div>
+	<button type="button" class="add-choice">추가</button>
+</div>
+<div class="choice-formset">
+{{ formset.management_form }}
+{% for form in formset %}
+	<div class="choice-form">{{ form.choice_text }}</div>
+{% endfor %}
+</div>
+<br>
+<input type="submit" value="Create">
+</form>
+<br>
+<div>
+	<a href="{% url 'polls:index' %}">메인으로</a>
+</div>
+
+</body>
+</html>
