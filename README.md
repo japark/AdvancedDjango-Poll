@@ -1,6 +1,16 @@
 # AdvancedDjango-Poll
 Improvement of "Poll" Tutorial in Django Official Docs. This is the First one in Advanced Django Series.
 
+WARNING!!!
+This repository does NOT contain SECRET_KEY item,  
+so you need to generate your own SECRET_KEY and save it as "secret_key.json" file like below:
+
+// secret_key.json
+{
+  "SECRET_KEY": "<<<Enter your secret key here!!!>>>"
+}
+
+
 
 After git clone, follow these:
 
