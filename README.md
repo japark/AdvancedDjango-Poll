@@ -6,7 +6,7 @@ This repository does NOT contain SECRET_KEY item,
 so if you want to run the whole code,  
 you need to generate your own SECRET_KEY and save it as "secret_key.json" file like below:
 
-// secret_key.json  
+// AdvancedDjango-Poll/secret_key.json  
 {  
   "SECRET_KEY": "<<<Enter your generated secret key here!!!>>>"  
 }  
