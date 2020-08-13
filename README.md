@@ -16,7 +16,7 @@ Or you can just copy the necessary code to your project.
 
 After git clone, follow these:
 
-  1) Enter the "Django-Board" directory.  
+  1) Enter the "Advanced-Polls" directory.  
   2) Make virtual environment:  
     - virtualenv venv  
     - venv\Scripts\activate (Or "source venv/bin/activate" in Mac)  
@@ -28,8 +28,8 @@ After git clone, follow these:
     - Go to 127.0.0.1:8000/admin  
     - Login with superuser account made above.  
     - You can now control the admin site.  
-  6) Go to 127.0.0.1:8000  
-    - It's the "Django-Board" website, which is intended to show you.
+  6) Go to 127.0.0.1:8000/polls  
+    - It's the "Advanced Polls" website, which is intended to show you.
 
 
 The core modifications from original tutorial are following :  
