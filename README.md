@@ -12,8 +12,8 @@ you need to generate your own SECRET_KEY and save it as "secret_key.json" file l
 }  
 
 Or you can just copy the necessary code to your project.
-  
-  
+
+
 After git clone, follow these:
 
   1) Enter the "Django-Board" directory.  
